@@ -13,6 +13,16 @@ h1, footer {
 	text-align: center;
 }
 
+/* css for menu.html */
+h4 {
+	font-weight: bold;
+}
+
+section {
+	text-align: center;
+}
+/**/
+
 nav {
 	border-top: thin #5b7d87 solid;
     border-bottom: thin #5b7d87 solid;

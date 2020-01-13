@@ -27,49 +27,50 @@
 				<a class="btn" href="contact.html">Contact Us</a>
 			</nav>
 			<main>
-				<form action="submit.html" method="POST">
-					<label for="name">Name: </label>
-					<input type="text" id="name" name="name"><br />
-					
-					<label for="email">Email: </label>
-					<input type="text" id="email" name="email"><br />
-					
-					<label for="phone">Phone: </label>
-					<input type="text" id="phone" name="phone"><br />
-					
-					<label for="reason">Reason for Inquiry: </label>
-					<select id="reason" name="reason">
-						<option value="default">Catering</option>
-						<option value="Private">Private Party</option>
-						<option value="feedback">Feedback</option>
-						<option value="other">Other</option>
-					</select> <br />
-					
-					<label for="info">Additional Information: </label>
-					<textarea id="info" name="info"></textarea> <br />
-					
-					<label>Have you been to the restaurant?
-						<input type="radio" id="choice1" name="visit" value="no">
-						<label for="choice1">No</label>
-						<input type="radio" id="choice2" name="visit" value="yes">
-						<label for="choice2">yes</label><br />
-					</label>
-					
-					<label>Best days to contact you:
-						<input type="checkbox" id="monday" name="days" value="monday">
-						<label for="monday">M</label>
-						<input type="checkbox" id="tuesday" name="days" value="tuesday">
-						<label for="tuesday">T</label>
-						<input type="checkbox" id="wednesday" name="days" value="wednesday">
-						<label for="wednesday">W</label>
-						<input type="checkbox" id="thursday" name="days" value="thursday">
-						<label for="thursday">Th</label>
-						<input type="checkbox" id="friday" name="days" value="friday">
-						<label for="friday">F</label>
-					</label><br />
-					<input type="submit" name="submit" value="Send Request">
-				</form>
-				<hr />
+				<div class="col text-center">
+					<form action="submit.html" method="POST">
+						<label for="name">Name: </label>
+						<input type="text" id="name" name="name"><br />
+						
+						<label for="email">Email: </label>
+						<input type="text" id="email" name="email"><br />
+						
+						<label for="phone">Phone: </label>
+						<input type="text" id="phone" name="phone"><br />
+						
+						<label for="reason">Reason for Inquiry: </label>
+						<select id="reason" name="reason">
+							<option value="default">Catering</option>
+							<option value="Private">Private Party</option>
+							<option value="feedback">Feedback</option>
+							<option value="other">Other</option>
+						</select> <br />
+						
+						<label for="info">Additional Information: </label>
+						<textarea id="info" name="info"></textarea> <br />
+						
+						<label>Have you been to the restaurant?
+							<input type="radio" id="choice1" name="visit" value="no">
+							<label for="choice1">No</label>
+							<input type="radio" id="choice2" name="visit" value="yes">
+							<label for="choice2">yes</label><br />
+						</label>
+						<br />
+						<label>Best days to contact you:
+							<input type="checkbox" id="monday" name="days" value="monday">
+							<label for="monday">M</label>
+							<input type="checkbox" id="tuesday" name="days" value="tuesday">
+							<label for="tuesday">T</label>
+							<input type="checkbox" id="wednesday" name="days" value="wednesday">
+							<label for="wednesday">W</label>
+							<input type="checkbox" id="thursday" name="days" value="thursday">
+							<label for="thursday">Th</label>
+							<input type="checkbox" id="friday" name="days" value="friday">
+							<label for="friday">F</label>
+						</label><br />
+						<input type="submit" name="submit" value="Send Request">
+					</form>
+				</div>
 				<footer>
 					<p>123 line ln, Newt, Minnesota, 45645</p>
 					<p>716-123-786</p>
