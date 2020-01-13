@@ -30,6 +30,25 @@ section {
 #bgc {
 	background-color: #ffBA08;
 }
+
+table {
+	height: 200px;
+}
+
+thead {
+	text-align: center;
+}
+
+tbody tr:nth-child(odd){
+	background-color: #136F63;
+	color: white;
+}
+
+tbody tr:nth-child(even){
+	background-color: red;
+	color: white;
+}
+
 /**/
 
 nav {
