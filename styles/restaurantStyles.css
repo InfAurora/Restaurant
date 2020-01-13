@@ -25,3 +25,6 @@ nav .btn {
 nav .btn:hover {
 	font-weight: bold;
 }
+nav .btn:visited {
+	color: blue;
+}
