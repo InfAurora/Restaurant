@@ -1,14 +1,19 @@
 /*
     Name: Jose Alba
     Date Created: 01/12/2020 
-    Most recent revision: 01/012/2020
+    Most recent revision: 01/12/2020
 */
 header, footer {
 	background-color: red;
 	color: white;
 	font-weight: bold;
 }
-
+.restName {
+	background-color: #136F63;
+}
+h1 {
+	font-family: fantasy, arial;
+}
 h1, footer {
 	text-align: center;
 }
@@ -21,6 +26,10 @@ h4 {
 section {
 	text-align: center;
 }
+
+#bgc {
+	background-color: #ffBA08;
+}
 /**/
 
 nav {
@@ -28,6 +37,7 @@ nav {
     border-bottom: thin #5b7d87 solid;
     padding-top: 12px;
     padding-bottom: 12px;
+	background-color: #136F63;
 }
 
 nav .btn {
@@ -36,16 +46,21 @@ nav .btn {
 	
 }
 
+nav .btn:visited {
+	color: #032B43;
+}
+
 nav .btn:hover {
 	font-weight: bold;
-}
-nav .btn:visited {
-	color: blue;
 }
 
 /*form css*/
 label {
 	font-size: 1.1em;
+}
+
+#req1, #req2, #req3 {
+	font-weight: bold;
 }
 
 input[type=text] {

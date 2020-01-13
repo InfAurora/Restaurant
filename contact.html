@@ -2,7 +2,7 @@
 <!--
     Name: Jose Alba
     Date Created: 01/08/2020 
-    Most recent revision: 01/09/2020
+    Most recent revision: 01/12/2020
 -->
 <html lang="en"> 
     <head>
@@ -27,18 +27,18 @@
 				<a class="btn" href="contact.html">Contact Us</a>
 			</nav>
 			<main>
-				<div class="col text-center">
+				<div class="col text-center menu" id="bgc">
 					<form action="submit.html" method="POST">
-						<label for="name">Name: </label>
+						<label id="req1" for="name">Name: </label>
 						<input type="text" id="name" name="name"><br />
 						
-						<label for="email">Email: </label>
+						<label id="req2" for="email">Email: </label>
 						<input type="text" id="email" name="email"><br />
 						
 						<label for="phone">Phone: </label>
 						<input type="text" id="phone" name="phone"><br />
 						
-						<label for="reason">Reason for Inquiry: </label>
+						<label id="req3" for="reason">Reason for Inquiry: </label>
 						<select id="reason" name="reason">
 							<option value="default">Catering</option>
 							<option value="Private">Private Party</option>
@@ -71,11 +71,11 @@
 						<input type="submit" name="submit" value="Send Request">
 					</form>
 				</div>
-				<footer>
-					<p>123 line ln, Newt, Minnesota, 45645</p>
-					<p>716-123-786</p>
-				</footer>
 			</main>
+			<footer>
+				<p>123 line ln, Newt, Minnesota, 45645</p>
+				<p>716-123-786</p>
+			</footer>
 		</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
