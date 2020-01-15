@@ -117,5 +117,6 @@ textarea {
     border: 2px solid red;
     border-radius: 3px;
     resize: none;
+	vertical-align: middle;
 }
 /**/
