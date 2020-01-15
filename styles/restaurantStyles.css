@@ -14,7 +14,9 @@ header, footer {
 }
 
 .restName {
-	background-color: #136F63;
+	background-color: #ffBA08;
+	margin-top: -16px;
+	margin-bottom: 0px;
 }
 h1 {
 	font-family: fantasy, critter, arial;
@@ -62,8 +64,9 @@ nav {
     padding-top: 12px;
     padding-bottom: 12px;
 	background-color: #136F63;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
-
 
 nav .btn {
 	background-color: red;
