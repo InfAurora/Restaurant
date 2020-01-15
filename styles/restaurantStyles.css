@@ -8,11 +8,16 @@ header, footer {
 	color: white;
 	font-weight: bold;
 }
+
+.jumbotron {
+	background-color: #ffBA08;
+}
+
 .restName {
 	background-color: #136F63;
 }
 h1 {
-	font-family: fantasy, arial;
+	font-family: fantasy, critter, arial;
 }
 h1, footer {
 	text-align: center;
