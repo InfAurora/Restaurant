@@ -83,6 +83,15 @@ nav .btn:hover {
 }
 
 /*form css*/
+
+/*carousel css*/
+
+.carousel-item {
+	width:75%;
+	height: 25%;
+}
+
+/**/
 label {
 	font-size: 1.1em;
 }
