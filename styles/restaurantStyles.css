@@ -1,7 +1,7 @@
 /*
     Name: Jose Alba
     Date Created: 01/12/2020 
-    Most recent revision: 01/12/2020
+    Most recent revision: 01/15/2020
 */
 header, footer {
 	background-color: red;
@@ -94,6 +94,7 @@ nav .btn:hover {
 
 .carousel-item {
 	width:100%;
+	height: 740px;
 }
 
 /**/
