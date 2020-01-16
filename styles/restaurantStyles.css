@@ -109,8 +109,8 @@ label {
 	margin: auto;
 }
 
-.invF {
-	top: 10px;
+.invalid-feedback, .valid-feedback {
+	font-size: 1em ;
 }
 
 input[type=text] {
