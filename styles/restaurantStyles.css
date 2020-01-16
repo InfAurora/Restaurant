@@ -13,6 +13,11 @@ header, footer {
 	background-color: #ffBA08;
 }
 
+.alert {
+	text-align: center;
+	color: purple;
+}
+
 .restName {
 	background-color: #ffBA08;
 	margin-top: -16px;
