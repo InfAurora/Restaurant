@@ -16,6 +16,7 @@ header, footer {
 .alert {
 	text-align: center;
 	color: purple;
+	margin:auto;
 }
 
 .restName {
