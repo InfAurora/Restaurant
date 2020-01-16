@@ -87,8 +87,7 @@ nav .btn:hover {
 /*carousel css*/
 
 .carousel-item {
-	width:75%;
-	height: 25%;
+	width:100%;
 }
 
 /**/
